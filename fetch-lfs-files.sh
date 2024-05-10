@@ -4,5 +4,6 @@
 set -e
 
 # Fetch LFS files
+git lfs install
 git lfs fetch
 git lfs checkout
